@@ -1,3 +1,4 @@
+drop table if exists author;
 create table author (
                       id bigint not null,
                       first_name varchar(255),
